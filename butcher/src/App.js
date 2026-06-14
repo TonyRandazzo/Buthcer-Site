@@ -67,7 +67,8 @@ function App() {
           <span className="underline underline--center" />
         </div>
         <Section className="section--loop" layout="media-left">
-          <Media type="image" src="/media/gameplay.png" alt="Core gameplay" />
+          <Media type="video" src="/media/gameplay.mp4" />
+
 
           <div className="card card--text">
             <h3 className="subheading">

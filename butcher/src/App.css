@@ -8,6 +8,11 @@
 }
 html, body, .app {
   scroll-snap-type: none;
+  background-image: url('assets/background.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  background-attachment: fixed;
 }
 
 
@@ -61,11 +66,11 @@ body{
     180deg,
     #5e0c0e 0%,
     #5e0c0e 7%,
-    #000000 20%,
-    #000000 52%,
-    #000000 74%,
-    #000000 90%,
-    #000000 100%
+    transparent 20%,
+    transparent 52%,
+    transparent 74%,
+    transparent 90%,
+    transparent 100%
   );
 }
 
